@@ -1,0 +1,37 @@
+{
+    "config": {
+        "aws:region": "us-east-1",
+        "pulumi:tags": "{\"pulumi:template\":\"aws-typescript\"}"
+    },
+    "steps": [
+        {
+            "op": "same",
+            "urn": "urn:pulumi:dev::pulumi-first::pulumi:pulumi:Stack::pulumi-first-dev",
+            "oldState": {
+                "urn": "urn:pulumi:dev::pulumi-first::pulumi:pulumi:Stack::pulumi-first-dev",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack",
+                "outputs": {
+                    "bucketName": "maheshnd-pulumi-first-dev-my-static-website-bucket-5ec9f14",
+                    "websiteUrl": "maheshnd-pulumi-first-dev-my-static-website-bucket-5ec9f14.s3-website-us-east-1.amazonaws.com"
+                },
+                "created": "0001-01-01T00:00:00Z",
+                "modified": "0001-01-01T00:00:00Z",
+                "sourcePosition": "project:///node_modules/@pulumi/runtime/stack.ts#38,23"
+            },
+            "newState": {
+                "urn": "urn:pulumi:dev::pulumi-first::pulumi:pulumi:Stack::pulumi-first-dev",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack",
+                "created": "0001-01-01T00:00:00Z",
+                "modified": "0001-01-01T00:00:00Z",
+                "sourcePosition": "project:///node_modules/@pulumi/runtime/stack.ts#38,23"
+            },
+            "detailedDiff": null
+        }
+    ],
+    "duration": 4898250625,
+    "changeSummary": {
+        "same": 6
+    }
+}
